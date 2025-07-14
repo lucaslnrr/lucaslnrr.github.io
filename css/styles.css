@@ -2,7 +2,7 @@
 Theme Name: alive-Responsive-Coming-Soon-Template
 Author URI: http://webthemez.com/ 
 */
-
+#505050
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
 * {
@@ -26,12 +26,12 @@ body {
 }
 ::selection {
 	color: #fff;
-	background: #FF5200;
+	background: #ff6600;
 }
 
 ::-moz-selection {
  color: #fff;
- background: #FF5200;
+ background: #ff6600;
 }
 p {
 	color: #858585;
@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6, #home .heading strong {
 	color: #BEBEBE;
 }
 .btn {
-	background: #FF5200;
+	background: #ff6600;
 }
 .btn:hover {
 	background: #145AC4;
@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6, #home .heading strong {
 	background: rgba(255,255,255,0.35);
 }
 a {
-	color: #FF5200;
+	color:#ff6600;
 	text-decoration: none;
 	text-shadow: none;
 	-webkit-transition: all 0.2s linear;
@@ -469,14 +469,14 @@ h2, .h2 {
 	background: transparent;
 }
 .navbar-inverse .navbar-toggle {
-	background-color: #FF5200;
+	background-color: #ff6600;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
 /*background-color: #FF5200;*/
 ;
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-	background: #FF5200;
+	background:#ff6600;
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
 	color: #fff;
