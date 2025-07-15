@@ -356,7 +356,7 @@ h2, .h2 {
 	text-align: center;
 }
 .banner-container {
-	background: rgba(0, 0, 0, 0.05);
+	background: #ff66004d;
 	background-image: url('../images/dots.png');
 	background-repeat: repeat;
 	height: 760px;
