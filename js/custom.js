@@ -106,6 +106,7 @@ $('document').ready(function () {
     , "images/img6.jpg"
     , "images/img7.jpg"
     , "images/img8.jpg"
+    , "images/img9.jpg"
   ], {duration: 3000, fade: 1250});
   
     customScripts.init();
