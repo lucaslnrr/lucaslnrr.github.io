@@ -509,11 +509,11 @@ h2, .h2 {
 	margin: 0px;
 }
 .circle {
-	color: #8A8A8A;
+	color: whitesmoke;
 	height: 80px;
 	width: 80px;
 	border-radius: 90px;
-	background: #252525;
+	background: #ff771c;
 	padding: 23px;
 }
 #section-strapline {
@@ -778,7 +778,7 @@ img, video, iframe, embed, object {
 	top: 36px;
 }
 #contactUs {
-/*background: #FF5200;*/;
+/*background: #FF5200;*/
 }
 #contactUs .btn {
 	border-radius: 0px !important;
