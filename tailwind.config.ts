@@ -9,8 +9,27 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "rgb(var(--background) / <alpha-value>)",
+        foreground: "rgb(var(--foreground) / <alpha-value>)",
+        muted: "rgb(var(--muted) / <alpha-value>)",
+        accent: "rgb(var(--accent) / <alpha-value>)",
+        accent2: "rgb(var(--accent-2) / <alpha-value>)",
+        dark: "rgb(var(--dark) / <alpha-value>)",
+        surface: "rgb(var(--surface) / <alpha-value>)",
+      },
+      fontFamily: {
+        sans: [
+          "var(--font-montserrat)",
+          "ui-sans-serif",
+          "system-ui",
+          "sans-serif",
+        ],
+        display: [
+          "var(--font-montserrat)",
+          "ui-sans-serif",
+          "system-ui",
+          "sans-serif",
+        ],
       },
     },
   },

@@ -34,3 +34,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Design assets
+1 - Cliente-20260117T133836Z-1-001/
+

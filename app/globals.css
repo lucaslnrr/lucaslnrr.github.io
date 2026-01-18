@@ -3,25 +3,77 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: 255 255 255;
+  --foreground: 34 34 34;
+  --muted: 102 102 102;
+  --accent: 255 102 0;
+  --accent-2: 255 119 28;
+  --dark: 22 22 22;
+  --surface: 246 246 246;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(var(--foreground));
+  background: rgb(var(--background));
+  font-family: var(--font-montserrat), sans-serif;
+}
+
+a {
+  color: rgb(var(--accent));
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(var(--foreground));
+}
+
+::selection {
+  background: rgb(var(--accent));
+  color: #fff;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .h-10 {
+    height: 70px;
+  }
+
+  .hero-overlay {
+    background:
+      linear-gradient(120deg, rgb(91 40 6 / 0.85), rgb(20 10 5 / 0.95)),
+      url("/images/dots.png");
+    background-size: cover, auto;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+  }
+
+  .font-display {
+    font-family: var(--font-montserrat), sans-serif;
+  }
+
+  .panel-shadow {
+    box-shadow: 0 24px 55px rgb(0 0 0 / 0%);
+  }
+
+  .animate-fade-up {
+    animation: fade-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
   }
 }
